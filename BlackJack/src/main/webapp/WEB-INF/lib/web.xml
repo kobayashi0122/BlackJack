@@ -1,0 +1,20 @@
+<!DOCTYPE web-app PUBLIC "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN" "http://java.sun.com/dtd/web-app_2_3.dtd">
+<web-app>
+    <servlet>
+        <servlet-name>HelloServlet</servlet-name>
+        <servlet-class>test.HelloServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>HelloServlet</servlet-name>
+        <url-pattern>/hello</url-pattern>
+    </servlet-mapping>
+    
+    <servlet>
+        <servlet-name>BlackJackServlet</servlet-name>
+        <servlet-class>Servlet.BlackJackServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>BlackJackServlet</servlet-name>
+        <url-pattern>/random</url-pattern>
+    </servlet-mapping>
+</web-app>
